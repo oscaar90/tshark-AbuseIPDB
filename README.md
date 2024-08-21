@@ -33,7 +33,7 @@ Este script en Bash permite analizar capturas de tráfico de red (archivos .pcap
 
    ```bash
    git clone https://github.com/oscaar90/tshark-AbuseIPDB.git
-   cd tu_repositorio
+   cd tshark-AbuseIPDB
    ```
 
 2. **Configura el script**:
