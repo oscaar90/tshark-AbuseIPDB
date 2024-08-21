@@ -14,15 +14,15 @@ Este script en Bash permite analizar capturas de tráfico de red (archivos .pcap
 1. **Instalar `tshark`, `curl` y `jq`**:
    En sistemas basados en Debian/Ubuntu, puedes instalar estos paquetes con:
 
-   \\```bash
+   ```bash
    sudo apt-get install tshark curl jq
-   \\```
+   ```
 
    En sistemas basados en Red Hat/CentOS, usa:
 
-   \\```bash
+   ```bash
    sudo yum install tshark curl jq
-   \\```
+   ```
 
 2. **Obtener una clave API de AbuseIPDB**:
    Regístrate en [AbuseIPDB](https://www.abuseipdb.com/) y obtén tu clave API.
@@ -31,18 +31,18 @@ Este script en Bash permite analizar capturas de tráfico de red (archivos .pcap
 
 1. **Clona el repositorio**:
 
-   \\```bash
-   git clone https://github.com/oscaar90/AbuseIPDB.git
+   ```bash
+   git clone https://github.com/oscaar90/tshark-AbuseIPDB.git
    cd tu_repositorio
-   \\```
+   ```
 
 2. **Configura el script**:
 
    Abre el archivo `analizar_ips.sh` en un editor de texto y reemplaza `YOUR_ABUSEIPDB_API_KEY` con tu clave API de AbuseIPDB.
 
-   \\```bash
+   ```bash
    API_KEY="YOUR_ABUSEIPDB_API_KEY"
-   \\```
+   ```
 
 ## Uso
 
@@ -50,17 +50,17 @@ Este script en Bash permite analizar capturas de tráfico de red (archivos .pcap
 
    Usa `tshark` para capturar tráfico y guardarlo en un archivo `.pcapng`. Asegúrate de reemplazar `ens33` con el nombre de tu interfaz de red:
 
-   \\```bash
+   ```bash
    tshark -i ens33 -w captura.pcapng
-   \\```
+   ```
 
 2. **Ejecuta el script**:
 
    Una vez que tengas el archivo `captura.pcapng`, ejecuta el script:
 
-   \\```bash
+   ```bash
    bash analizar_ips.sh
-   \\```
+   ```
 
    El script generará un archivo `verificadas_ips.csv` con las IPs verificadas y sus detalles.
 
