@@ -88,5 +88,5 @@ Este proyecto está bajo la licencia [MIT](LICENSE).
 
 ## Contacto
 
-Para preguntas o comentarios, por favor contacta a [tu_email@dominio.com](mailto:tu_email@dominio.com).
+Para preguntas o comentarios, por favor contacta a [oscaarsanchez90@gmail.com](mailto:oscaarsanchez90@gmail.com).
 
